@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .mycontainer {
+    @apply container px-28 py-16 mx-auto;
+  }
+
+  .minh {
+    min-height: 93.5vh;
+    position: unset;
+  }
+}
+
+.strength-bar {
+  height: 10px;
+  border-radius: 5px;
+  transition: width 0.3s ease;
+}
